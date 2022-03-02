@@ -58,6 +58,7 @@ a {
 }
 
 .contant{
+    /* position: absolute; */
     padding-top: 7vh;
     padding-right: 5vw;
 }
@@ -78,7 +79,7 @@ a {
 
 .contant .bold{
     font-weight: 500;
-    margin: 4rem 0 2rem 0;
+    margin: 4vh 0 2vh 0;
 }
 
 .contant h4{
