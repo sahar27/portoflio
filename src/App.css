@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Gilda+Display&family=Signika+Negative:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilda Display', serif;
+}
+
+body{
+    /* background-color: rgb(198, 193, 184);
+    background-color: #f7ece0; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* background-color: rgb(240, 228, 220); */
+    background-color: #f5efea;
+
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    width: 90.5vw;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+    z-index: 1;
+}
+
+.navbarText{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 0.4rem;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    background-color: #f5efea;
+}
+
+.split {
+    height: 100vh;
+    width: 30vw;
+    position: fixed;
+    z-index: 1;
+    top: 10vh;
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+}
+  
+.right {
+    right: 0;
+}
+
+.contant{
+    padding-top: 7vh;
+    padding-right: 5vw;
+}
+
+.contant p {
+    font-size: 1.3rem;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.contant a:hover, .option:hover{
+    color: #f7ece0;
+    cursor: pointer;
+}
+
+.contant .bold{
+    font-weight: 500;
+    margin: 4rem 0 2rem 0;
+}
+
+.contant h4{
+    font-size: 1.09rem;
+}
+
+text { 
+    font-size: 3.3rem;
+    font-weight: lighter; 
+    text-transform: uppercase;
+}
+
+.banner {
+    position: fixed;
+    font-family: 'Noto Serif Display', serif;
+    fill: currentColor;
+    transform-origin: center;
+    margin-left: -54vw;
+    margin-top: 5vh;
+    width: 160vw;
+    height: 160vh;
+    -webkit-animation: rotate 20s normal linear infinite;
+    animation: rotate 20s normal linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, 270deg);
+    transform: rotate3d(0, 0, 1, 270deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+.section {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    /* z-index: 1; */
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.leftSide {
+    left: 0;
+    width: 40%;
+}
+  
+.rightSide {
+    right: 0;
+    width: 60%;
+}
+
+
+.leftSide .contaner {
+    position: fixed;
+    top: 50vh;
+    left: 20vw;
+    width: 30vw;
+    transform: translate(-50%, -50%);
+    margin-top: 5vh;
+}
+
+.arrow{
+    display: block;
+    border: none;
+    font-size: 6rem;
+    padding-left: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Noto Serif Display', serif;
+    background-color: #f5efea;
+}
+
+.titel{
+    display: inline-flex;
+}
+
+.titel h1{
+    font-size: 3.5rem;
+}
+
+.contaner p{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: lighter;
+    margin: 8% 0;
+    font-size: 1.3rem;
+    text-indent: 30px;
+}
+
+.link:hover{
+    color: #f7ece0;
+    cursor: pointer;
+}
+
+.rightSide .contaner{
+    position: fixed;
+    top: 50vh;
+    margin-left: 50%;
+    width: 90vw;
+    transform: translate(-50%, -50%);
+    margin-top: 7vh;
+}
+
+.svgWork{
+    position: fixed;
+    font-family: 'Noto Serif Display', serif;
+    fill: currentColor;
+    transform-origin: center;
+    z-index: 1;
+    margin-left: -15%;
+    margin-top: -45%;
+    width: 25vw;
+    height: 25vh;
+    -webkit-animation: rotate 20s normal linear infinite;
+    animation: rotate 20s normal linear infinite;
+}
+
+.w-500{
+    width: 50vw ;
+}
+.carousel{
+    position: relative;
+}
+
+.notFound{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.loding{
+    position: absolute;
+    font-family: 'Noto Serif Display', serif;
+    fill: currentColor;
+    transform-origin: center;
+    margin-left: 35vw;
+    margin-top: 30vh;
+    width: 30vw;
+    height: 30vh;
+    -webkit-animation: rotate 20s normal linear infinite;
+    animation: rotate 20s normal linear infinite;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 2560px) {
+    .navbarText{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-family: 'DM Serif Text', serif;
+        letter-spacing: 0.4rem;
+    } 
+    .contant p {
+        font-size: 2.3rem;
+        font-family: 'Signika Negative', sans-serif;
+        font-weight: 300;
+    }
+    h4{
+        font-size: 1.7rem;
+    }
+
+    .titel h1{
+        font-size: 5.5rem;
+    }
+    
+    .contaner p{
+        font-size: 2.3rem;
+        text-indent: 50px;
+    }
+    .link, .subTitel{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .banner{
+        margin-left: -40vw;
+        margin-top: 10vh;
+        width: 130vw;
+        height: 130vh;
+    }
+
+    .contant{
+        padding-top: 3.5vh;
+    }
+
+    .contant p {
+        font-size: 1.1rem;
+    }
+    .section {
+        height:50%;
+        width:100%;
+    }
+      
+    .leftSide {
+        top: 0;
+        height:50%;
+        width:100%;
+    }
+      
+    .rightSide {
+        bottom: 0;
+        height:50%;
+        width:100%;
+    }
+    .rightSide .contaner{
+        position: fixed;
+        width: 50%;
+        margin-top: 60%;
+    }
+    .leftSide .contaner {
+        position: fixed;
+        top: 70%;
+        left: 50%;
+        width: 70%;
+        margin-top: 100%;
+    }
+
+
+    .titel h1{
+        font-size: 1.5rem;
+    }
+    
+    .contaner p{
+        font-size: 1rem;
+        text-indent: 10px;
+        margin: 8% 0;
+    }
+    .link, .subTitel{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner{
+        margin-left: -50vw;
+        margin-top: 10vh;
+        width: 120vw;
+        height: 120vh;
+    }
+
+    .split{
+        width: 40vw;
+    }
+
+    .contant{
+        padding-top: 3.5vh;
+    }
+
+    .contant p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .navbar{
+        width: 90vw;
+        display: block;
+        text-align: center;
+
+    }
+    
+    .navbarText{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-family: 'DM Serif Text', serif;
+        letter-spacing: 0.4rem;
+    }
+
+    .banner{
+        margin-left: -10vw;
+        margin-top: 35vh;
+        width: 120vw;
+        height: 120vh;
+    }
+
+    .split{
+        width: 90vw;
+    }
+
+    .contant{
+        padding-top: 8vh;
+        padding-right: 4vh;
+    }
+
+    .contant p {
+        font-size: 1rem;
+    }
+
+    .contant .bold{
+        margin: 2rem 0 2rem 0;
+    }
+
+}
+
+
