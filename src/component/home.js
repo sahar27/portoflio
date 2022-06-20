@@ -51,7 +51,7 @@ function Home() {
                     strive to design solutions that are simple, effective, and
                     beautifully crafted.
                   </p>
-                  <p className="bold">My work</p>
+                  <p className="bold">My works</p>
                   {/* <p
                     className="option"
                     onClick={() => {
@@ -114,7 +114,7 @@ function Home() {
                   </a>
                   <br />
                   <h4>
-                    I’d love to hear your thoughts – feel free to say hey.
+                    I’d love to hear your thoughts – feel free to say hi.
                   </h4>
                 </div>
               </Slide>

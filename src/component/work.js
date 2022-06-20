@@ -77,12 +77,15 @@ function Work({ options }) {
                   <h1>{option.titel}</h1>
                   <h6 className="subTitel">({option.subTitel})</h6>
                 </div>
+                <div>
+                —
+                <a className="link" href={option.link}>
+                website
+                </a>
+                </div>
                 <p className="about">{option.about}</p>
                 <p className="design">{option.design}</p>
                 <p className="tool">{option.tool}</p>
-                <a className="link" href={option.link}>
-                  website
-                </a>
               </div>
             </div>
           </Slide>

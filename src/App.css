@@ -17,7 +17,7 @@ body{
 }
 
 a {
-    color: #000;
+    color: #2f2f2f;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ a {
     text-transform: uppercase;
     font-family: 'DM Serif Text', serif;
     letter-spacing: 0.4rem;
-    color: #000;
+    color: #2f2f2f;
     text-decoration: none;
     border: none;
     background-color: #f5efea;
@@ -68,7 +68,7 @@ a {
     font-family: 'Signika Negative', sans-serif;
     font-weight: 300;
     margin: 0;
-    color: #000;
+    color: #2f2f2f;
     text-decoration: none;
 }
 
@@ -182,6 +182,17 @@ text {
     margin: 8% 0;
     font-size: 1.3rem;
     text-indent: 30px;
+}
+
+.subTitel{
+    font-style: italic;
+}
+
+.link{
+    /* display: block; */
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .link:hover{
